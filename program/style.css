@@ -1,0 +1,452 @@
+:root {
+    --primary-color: #8B4513; /* SaddleBrown */
+    --secondary-color: #D4AF37; /* Golden */
+    --dark-color: #333;
+    --light-color: #f8f9fa;
+    --accent-color: #A0522D; /* Sienna */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Header Styles */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95) !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            padding: 15px 0;
+        }
+        
+        .navbar.scrolled {
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, 0.98) !important;
+        }
+        
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: var(--primary-color) !important;
+        }
+        
+        .navbar-brand span {
+            color: var(--secondary-color);
+        }
+        
+        .nav-link {
+            font-weight: 500;
+            margin: 0 10px;
+            color: var(--dark-color) !important;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+.hero1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/function.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/blog.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/gallery1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/packagefamily.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/dining1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/packagehoney.jpg');
+    background-size: cover;
+    
+    padding: 150px 0;
+}
+.hero7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/wedding.png');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+
+}
+.hero9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/packagefamily.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/8B4513/FFFFFF?text=Serenity') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../photos/packagewellness.jpg');
+    background-size: cover;
+   
+    padding: 150px 0;
+}
+
+
+.hero h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.hero p {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: 1rem auto;
+}
+.hero .gold-leaf {
+    width: 100px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(84%) sepia(35%) saturate(1013%) hue-rotate(320deg) brightness(90%) contrast(92%); /* Gold color */
+}
+
+.btn-gold {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+
+.btn-gold:hover {
+    background-color: #c5a230;
+    border-color: #c5a230;
+    color: var(--dark-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    color: var(--accent-color);
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.package-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.package-card .card-body {
+    padding: 2rem;
+}
+
+.package-card .card-title {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.package-card .icon {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.package-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.package-card ul li {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.package-card ul li i {
+    color: var(--secondary-color);
+    margin-right: 10px;
+    width: 20px;
+}
+
+.bg-sienna {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.bg-sienna h2, .bg-sienna p {
+    color: white;
+}
+
+.gallery-img {
+    border-radius: 15px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.booking-form {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.booking-form .form-control {
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1.25rem;
+}
+
+.booking-form .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(139, 69, 19, 0.25);
+    border-color: var(--primary-color);
+}
+ /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-logo {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: white;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        
+        .footer-logo span {
+            color: var(--secondary-color);
+        }
+        
+        .footer-about p {
+            margin-bottom: 20px;
+            color: #bbb;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+        
+        .footer-links h4 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-links h4::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background-color: var(--secondary-color);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary-color);
+            padding-left: 5px;
+        }
+        
+        .footer-newsletter p {
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-input {
+            flex: 1;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+        
+        .newsletter-btn {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 0 15px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .newsletter-btn:hover {
+            background-color: #c9a227;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            margin-top: 40px;
+            text-align: center;
+            color: #bbb;
+            font-size: 0.9rem;
+        }
