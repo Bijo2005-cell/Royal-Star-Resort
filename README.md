@@ -1,8 +1,6 @@
 # Royal-Star-Resort
 A PHP/MySQL resort management and booking application. Features role-based panels for guests, staff, and admins to manage bookings, payments, staff salaries, and rooms.
-# Royal Star Resort – Mini Project
 
-A PHP/MySQL resort management and booking application. It provides guest-facing pages (rooms, programs, gallery, blog), a full booking and payment flow, and admin/staff panels to manage accommodations, guests, salaries, leaves, and tasks.
 
 ## Highlights
 - Public site with booking flow, program packages, and gallery.
@@ -106,3 +104,11 @@ A PHP/MySQL resort management and booking application. It provides guest-facing 
 - Keep changes minimal and consistent with existing structure.
 - Document new endpoints with method, params, and response shape.
 - Avoid unrelated refactors in feature PRs.
+
+  ## Employee Login
+  user_id : noyal@gmail.com
+  password:noyal@123
+
+  ## Admin Login
+  user_id : bijokbinoy2005@gmail.com
+  password:bijo2005
